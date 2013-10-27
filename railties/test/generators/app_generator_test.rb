@@ -4,6 +4,7 @@ require 'generators/shared_generator_tests'
 
 DEFAULT_APP_FILES = %w(
   .gitignore
+  README.rdoc
   Gemfile
   Rakefile
   config.ru
