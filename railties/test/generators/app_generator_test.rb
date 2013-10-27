@@ -330,7 +330,7 @@ class AppGeneratorTest < Rails::Generators::TestCase
 
   def test_inclusion_of_lazy_loaded_sdoc
     run_generator
-    assert_file 'Gemfile', /gem 'sdoc', require: false/
+    assert_file 'Gemfile', /gem 'sdoc', group: :doc, require: false/
   end
 
   def test_template_from_dir_pwd
